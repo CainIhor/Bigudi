@@ -1,0 +1,264 @@
+{
+    "version": "0.4",
+    "title": "Popup",
+    "type": "section",
+    "metadata": {
+        "template_type": "section",
+        "elementor_pro_required": true,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "5db2fd26",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 700,
+                    "sizes": []
+                },
+                "background_color": "rgba(252,219,219,0.71)"
+            },
+            "elements": [
+                {
+                    "id": "33cd80ad",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "40d3aa10",
+                            "settings": {
+                                "editor": "<p>You need to know<\/p>",
+                                "text_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Farro",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 1.5,
+                                    "sizes": []
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 0.29999999999999999,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "13",
+                                    "isLinked": false
+                                },
+                                "align": "center",
+                                "typography_font_weight": "500",
+                                "typography_text_transform": "uppercase"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "18d2597f",
+                            "settings": {
+                                "title": "Our secret.",
+                                "title_color": "#FFFFFF",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Codystar",
+                                "typography_font_size": {
+                                    "unit": "rem",
+                                    "size": 3.6000000000000001,
+                                    "sizes": []
+                                },
+                                "typography_text_transform": "uppercase",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3999999999999999,
+                                    "sizes": []
+                                },
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "13",
+                                    "isLinked": false
+                                },
+                                "typography_font_weight": "500"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4af19968",
+                            "settings": {
+                                "form_name": "New Form",
+                                "form_fields": [
+                                    {
+                                        "_id": "name",
+                                        "field_label": "Name",
+                                        "placeholder": "Your Name",
+                                        "min_date": "",
+                                        "max_date": "",
+                                        "custom_id": "name"
+                                    },
+                                    {
+                                        "_id": "email",
+                                        "field_type": "email",
+                                        "required": "true",
+                                        "field_label": "Email",
+                                        "placeholder": "@",
+                                        "min_date": "",
+                                        "max_date": "",
+                                        "custom_id": "email"
+                                    }
+                                ],
+                                "input_size": "md",
+                                "button_text": "Signup",
+                                "button_size": "lg",
+                                "button_width_tablet": "100",
+                                "button_width_mobile": "100",
+                                "email_content": "[all-fields]",
+                                "email_content_2": "[all-fields]",
+                                "success_message": "The form was sent successfully.",
+                                "error_message": "An error occured.",
+                                "required_field_message": "This field is required.",
+                                "invalid_message": "There's something wrong. The form is invalid.",
+                                "label_color": "#000000",
+                                "field_border_radius": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "30",
+                                    "bottom": "30",
+                                    "left": "30",
+                                    "isLinked": true
+                                },
+                                "button_background_color": "#FF3F3F",
+                                "button_typography_typography": "custom",
+                                "button_typography_font_family": "Varela Round",
+                                "button_typography_font_weight": "500",
+                                "button_border_radius": {
+                                    "unit": "px",
+                                    "top": "30",
+                                    "right": "30",
+                                    "bottom": "30",
+                                    "left": "30",
+                                    "isLinked": true
+                                },
+                                "field_text_color": "#000000",
+                                "field_background_color": "#FFFFFF40",
+                                "field_border_width": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "button_text_color": "#000000",
+                                "show_labels": "",
+                                "step_next_label": "Next",
+                                "step_previous_label": "Previous",
+                                "html_color": "#000000",
+                                "previous_button_background_color": "#FF3F3F",
+                                "previous_button_text_color": "#000000",
+                                "__globals__": {
+                                    "previous_button_background_color": "",
+                                    "button_background_color": "globals\/colors?id=725b9e8"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "form",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4380c40e",
+                            "settings": {
+                                "editor": "<p>\u00a0Curabitur dapibus, eros ac pretium volutpat, augue metus molestie ante, ut tincidunt turpis ante eu est.\u00a0<\/p>",
+                                "text_color": "#4f4f4f",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Varela Round",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14
+                                },
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.5
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "30",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "align": "center",
+                                "align_tablet": "center",
+                                "_animation": "fadeInUp",
+                                "_animation_delay": 600
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "column"
+                }
+            ],
+            "isInner": true,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": 535,
+            "sizes": []
+        },
+        "background_background": "classic",
+        "background_image": {
+            "url": "https:\/\/wp.envatoextensions.com\/kit-124\/wp-content\/uploads\/sites\/127\/2018\/11\/image-from-rawpixel-id-2439583-png.png",
+            "id": 480
+        },
+        "background_position": "initial",
+        "background_xpos": {
+            "unit": "px",
+            "size": 45,
+            "sizes": []
+        },
+        "background_ypos": {
+            "unit": "%",
+            "size": -38,
+            "sizes": []
+        },
+        "background_size": "contain",
+        "border_radius": {
+            "unit": "px",
+            "top": "11",
+            "right": "11",
+            "bottom": "11",
+            "left": "11",
+            "isLinked": true
+        },
+        "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "30",
+            "bottom": "30",
+            "left": "30",
+            "isLinked": false
+        },
+        "background_color": "#F0E0E0",
+        "background_repeat": "no-repeat"
+    }
+}
